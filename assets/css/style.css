@@ -1,0 +1,193 @@
+.box
+{
+    background-color: aliceblue;
+    width: 100%;
+}
+
+#box h2, #box h3
+{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box h2
+{
+    width: 42%;
+    color: lightblue;
+}
+
+#box a
+{
+    text-decoration: none;
+}
+
+#box1
+{
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(../images/image1.jpg);
+    background-color: rgba(0, 255, 255, 100%);
+    position: relative;
+    z-index: 3;
+}
+
+.color
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 255, 255, 0.5);
+    z-index: 1;
+}
+
+.box1 h1
+{
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1 form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.box1 input[type="text"]
+{
+    padding: 10px 10px;
+    border: 2px solid #cacaca;
+    border-radius: 10px 0 0 10px;
+    box-sizing: border-box;
+    width: 350px;
+}
+
+.box1 .btn-1
+{
+    padding: 10px 10px;
+    border: 2px solid #cacaca;
+    border-radius: 0 10px 10px 0;
+    box-sizing: border-box;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+
+.box1 p
+{
+    color: white;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.box1 .btn-2
+{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
+.jobs
+{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.jobs h2
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jobs .btn-apply
+{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+}
+
+.sub
+{
+    background-color: #20b2d6;
+    color: white;
+}
+
+.sub h1, .sub p
+{
+    padding-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub h1
+{
+    padding-top: 15px;
+}
+
+.sub form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+
+.sub input[type="text"]
+{
+    padding: 10px 10px;
+    border: 2px solid #cacaca;
+    border-radius: 10px 0 0 10px;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.sub .btn-sub
+{
+    padding: 10px 10px;
+    border: 2px solid #cacaca;
+    border-radius: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
